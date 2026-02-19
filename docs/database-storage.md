@@ -35,7 +35,6 @@ On INSERT/UPDATE:
 
 ## Database storage structure
 
-```md
 ```text
 /var/lib/postgresql/data/
  ├── base/
@@ -64,7 +63,7 @@ Table file on disk
  ├── Page 3
  └── ...
 
-
+```
 ## Summary
 
 Tables live on disk.  
