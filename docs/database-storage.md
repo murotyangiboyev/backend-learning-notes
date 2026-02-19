@@ -17,9 +17,10 @@ The real source of truth is disk.
  Tables are stored as files split into fixed-sized pages (8KB in PostgresSql).
  Rows are places inside pages wherever there is free space.
 
- When querying:
-     - if page is in RAM -> fast
-     - if page is in Disk -> slower
+
+When querying:
+    - if page is in RAM -> fast
+    - if page is in Disk -> slower
 
 
 ## Writes
