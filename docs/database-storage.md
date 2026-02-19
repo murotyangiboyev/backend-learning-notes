@@ -31,8 +31,12 @@ On INSERT/UPDATE:
 - Pages are flushed to disk later
 - This guarantees durability (ACID)
 
-## Databse storage structure 
+## Database storage structure
 
+## Database storage structure
+
+```md
+```text
 /var/lib/postgresql/data/
  ├── base/
  │    ├── 16384/        ← Database #1 (one directory per DB)
@@ -47,7 +51,6 @@ On INSERT/UPDATE:
  ├── pg_xact/          ← transaction status
  ├── pg_multixact/
  ├── pg_tblspc/        ← tablespaces
-
 
 Table file on disk
  ├── Page 1 (8KB)
