@@ -19,8 +19,8 @@ The real source of truth is disk.
 
 
 When querying:
-    - if page is in RAM -> fast
-    - if page is in Disk -> slower
+- if page is in RAM -> fast
+- if page is in Disk -> slower
 
 
 ## Writes
